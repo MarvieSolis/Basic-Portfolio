@@ -51,6 +51,11 @@ header #links .portfolio {
     padding-right: 20px;
 }
 
+hr {
+    display: block;
+    border: 2px solid #ddd;
+}
+
 footer {
     background-color: #666666;
     width: 100%;
