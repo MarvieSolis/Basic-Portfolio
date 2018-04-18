@@ -20,6 +20,8 @@ header {
 }
 
 header #myname {
+    font-size: 34px;
+    font-weight: bold;
     float: left;
     display: block;
     text-align: center;
@@ -63,12 +65,13 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 50px;
     text-align: center;
     color: #ddd;
     border-top: 10px;
     border-top-color: #4aaaa5;
     border-style: solid;
+    padding-top: 30px;
 }
 
 h1 {
@@ -85,6 +88,7 @@ html {
 body #main {
     width: 960px;
     padding: 50px;
+    padding-bottom: 90px;
     margin: 100px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -106,8 +110,13 @@ body #main .first {
 
 body #main p {
     line-height: 1.5em;
+    margin-top: 18px;
 }
 
+body #main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
 
 body form #name {
     width: 960px;
@@ -131,3 +140,92 @@ body form #submit {
     border: none;
     font-size: 16px;
 }
+
+
+body #main {
+    height: 400px;
+}
+
+body #main #images #soundcloud {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+
+body #main #images #soundcloud #music {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+
+
+body #main #images #youtube  {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+
+body #main #images #youtube #dance  {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+
+
+body #main #images #LinkedIn {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+
+body #main #images #LinkedIn #work {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+
+
+body #main #images #github {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+
+body #main #images #github #git {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: oblique;
+}
+
